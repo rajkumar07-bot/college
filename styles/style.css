@@ -1,0 +1,60 @@
+body{
+    background:white;
+}
+header{
+    background:#002147;
+    color:white;
+    text-align:center;
+}
+h1{
+    padding: top 20px;
+}
+.hero{
+    position:relative;
+    height:500px;
+    overflow:hidden;
+}
+
+.hero video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+    color:white;
+    text-align:center;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+}
+p{
+    font-size:25px;
+}
+nav{
+    background:#0b3d91;
+    text-align:center;
+    padding:15px;
+}
+div{
+    background:none;
+    text-align:center;
+    padding:15px;
+}
+button{
+    display:block;
+    margin:auto;
+}
+section{
+    background:white;
+    margin:20px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
